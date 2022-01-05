@@ -3,9 +3,11 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 :root {
-	--transparencycolor:			0,0,0;
-	--transparencyalpha:			0.15;
-	--messagetransparency:			0.5;
+	
+    --transparencycolor:			0,0,0;		                /* default:	0,0,0                                                                                               */
+    --messagetransparencycolor:	    248, 143, 192, 0.938;	    /*                              																                */
+	--transparencyalpha:			0.55;						/* default: 0.15				(general darkness of the app)													*/
+	--messagetransparency:			1.0;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
 	--usechatbubbles: 				calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
 	--guildchanneltransparency:		0.15;
 	--chatinputtransparency:		0.0;
