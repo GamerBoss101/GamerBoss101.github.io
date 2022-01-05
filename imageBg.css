@@ -800,7 +800,7 @@ body::after {
 	bottom: -0.6rem;
 	right: -0.2rem;
 	left: 0;
-	background: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 0.5));
+	background: rgba(var(--messagetransparencycolor), calc(var(--messagetransparency) * 0.5));
 	border-radius: 5px;
 	pointer-events: none;
 	z-index: -1;
@@ -881,18 +881,18 @@ body::after {
 .message-2qRu38 .wrapper-2a6GCs,							/* message				settings preview					*/
 .messageGroupCozy-2iY6cT,									/* message				pin popout							*/
 .message-1Ng5AR .wrapper-2a6GCs {							/* message				searchpage							*/
-	background-color: rgba(var(--transparencycolor), var(--messagetransparency)) !important;
+	background-color: rgba(var(--messagetransparencycolor), var(--messagetransparency)) !important;
 	contain: unset;
 }
 .message-1Ng5AR .wrapper-2a6GCs {							/* message				searchpage							*/
-	background-color: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 0.8)) !important;
+	background-color: rgba(var(--messagetransparencycolor), calc(var(--messagetransparency) * 0.8)) !important;
 }
 .message-2qnXI6.selected-2P5D_Z,
 .mouse-mode .message-2qnXI6:hover,
 .mouse-mode.full-motion .message-2qnXI6:hover,
 .mouse-mode .wrapper-1F5TKx:hover,
 .mouse-mode.full-motion .wrapper-1F5TKx:hover {
-	background-color: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 1.2 * var(--usechatbubbles) + 0.3 * (1 - var(--usechatbubbles)))) !important;
+	background-color: rgba(var(--messagetransparencycolor), calc(var(--messagetransparency) * 1.2 * var(--usechatbubbles) + 0.3 * (1 - var(--usechatbubbles)))) !important;
 }
 .backgroundFlash-24qWLN .message-2qnXI6 {					/* message				jump flash							*/
 	position: relative;
@@ -1068,7 +1068,7 @@ body::after {
 	top: 12px;
 	left: -32px;
 	border: 10px solid transparent;
-	border-right: 12px solid rgba(var(--transparencycolor), var(--messagetransparency));
+	border-right: 12px solid rgba(var(--messagetransparencycolor), var(--messagetransparency));
 }
 .cozy-3raOZG .container-3FojY8 .header-23xsNx::after {
 	left: 40px;
@@ -1077,13 +1077,13 @@ body::after {
 	top: 2px;
 }
 .message-1Ng5AR .wrapper-2a6GCs .header-23xsNx::after {
-	border-right-color: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 0.8));
+	border-right-color: rgba(var(--messagetransparencycolor), calc(var(--messagetransparency) * 0.8));
 }
 .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
 	left: calc(-78px * var(--usechatbubbles));
 }
 .cozy-3raOZG .iconContainer-3GkGRf {
-	background-color: rgba(var(--transparencycolor), var(--messagetransparency));
+	background-color: rgba(var(--messagetransparencycolor), var(--messagetransparency));
 	border-radius: 50%;
 	left: calc(1px * (-58 * var(--usechatbubbles) + -48 * (1 - var(--usechatbubbles))));
 	height: 25px !important;
@@ -1101,7 +1101,7 @@ body::after {
 	top: 2px;
 	left: 26px;
 	border: 10px solid transparent;
-	border-right: 12px solid rgba(var(--transparencycolor), var(--messagetransparency));
+	border-right: 12px solid rgba(var(--messagetransparencycolor), var(--messagetransparency));
 }
 .cozy-3raOZG .blockedSystemMessage-2Rk1ek .iconContainer-3GkGRf::after {
 	display: none;
@@ -1114,7 +1114,7 @@ body::after {
 .selected-2P5D_Z.message-2qnXI6.cozy-3raOZG .iconContainer-3GkGRf::after,
 .mouse-mode .message-2qnXI6.cozy-3raOZG:hover .iconContainer-3GkGRf::after,
 .mouse-mode.full-motion .message-2qnXI6.cozy-3raOZG:hover .iconContainer-3GkGRf::after {
-	border-right-color: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 1.2));
+	border-right-color: rgba(var(--messagetransparencycolor), calc(var(--messagetransparency) * 1.2));
 }
 #app-mount .mentioned-xhSam7.cozy-3raOZG .header-23xsNx::after {
 	border-right-color: rgba(var(--mentioncolor), calc(var(--messagetransparency) * 100000000000000000000000000000));
